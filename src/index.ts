@@ -65,7 +65,7 @@ export interface DailySummary {
 export default class RescueTimeService {
   private readonly baseUrl = 'https://www.rescuetime.com/anapi'
   private readonly client: AxiosInstance
-  constructor(readonly apiKey) {
+  constructor(private readonly apiKey) {
     this.client = axios.create({
       baseURL: this.baseUrl
     })

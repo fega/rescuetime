@@ -9,6 +9,8 @@ tslint.json
 .vscode
 build/docs
 **/*.spec.*
+**/*.ignore.*
 coverage
 .nyc_output
 *.log
+
