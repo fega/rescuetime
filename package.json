@@ -1,6 +1,6 @@
 {
   "name": "@fega/rescuetime",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "recuetime api wrapper",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
@@ -29,7 +29,7 @@
     "doc:json": "typedoc src/ --exclude **/*.spec.ts --target ES6 --mode file --json build/docs/typedoc.json",
     "doc:publish": "gh-pages -m \"[ci skip] Updates\" -d build/docs",
     "version": "standard-version",
-    "reset": "git clean -dfx && git reset --hard && npm i",
+    "reset": "echo hello",
     "clean": "trash build test",
     "all": "run-s reset test cov:check doc:html",
     "prepare-release": "run-s all version doc:publish"
