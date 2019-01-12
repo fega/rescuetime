@@ -9,6 +9,7 @@
       true,
       "never-prefix"
     ],
+    "no-console": false,
     // TODO: allow devDependencies only in **/*.spec.ts files:
     // waiting on https://github.com/palantir/tslint/pull/3708
     "no-implicit-dependencies": [
